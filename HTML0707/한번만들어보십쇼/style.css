@@ -1,0 +1,51 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+    height: 3000px;
+}
+.nav{
+    background-color:skyblue;
+    position:sticky;
+    top:0;
+    margin:0;
+    padding: 10px;
+    width: 100%;
+    height: 100px;
+    overflow:auto;
+}
+
+.nav>ul{
+    float:right;
+    font-size: 30px;
+}
+
+.nav>ul>li{
+    display:inline-block;
+    list-style:none;
+    margin-right:20px;
+    padding: 10px;
+}
+
+
+.fa-solid fa-up-long{
+    position:fixed;
+
+    right: 10px;
+    bottom: 10px;
+}
+
+.nav>.home{
+    right:0%;
+    bottom:0%;
+    font-size: 30px;
+}
+
+.nav>a{
+    width:50px;
+    height:50px;
+    text-align: center;
+}

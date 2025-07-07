@@ -1,0 +1,27 @@
+img{
+  width: 200px;
+  height: auto;
+}
+
+.rel{
+  position:relative/*스태틱을 기준으로 상대적 배치*/;
+  right:100px;
+  bottom:50px;
+}
+
+div{
+  margin:auto;
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  position: relative;
+}
+
+.pic{
+  position:absolute/*최상위 요소를 기준으로 절대적 배치*/;
+  /*부모가 static이 아니여야 함*/
+  top:0%;
+  left:0%
+  /* transform: translate(-50%, -50%); */
+
+}

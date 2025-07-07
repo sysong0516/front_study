@@ -1,0 +1,10 @@
+.user{
+    width: 100%;
+    height: auto;
+    display:inline-block;
+}
+
+ul>li{
+    list-style: none;
+    display:inline-block;
+}

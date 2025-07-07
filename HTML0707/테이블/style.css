@@ -1,0 +1,19 @@
+table{
+  border: 1px solid red;
+  border-collapse: collapse;
+  caption-side: bottom;
+  
+  table-layout: fixed; /*고정된 너비*/
+
+  /*빈칸없애기*/
+  empty-cells: hide;
+}
+
+td{
+  border: 1px solid red;
+}
+
+img{
+  width:30px;
+  vertical-align: middle; /*이미지 세로 정렬*/;
+}
