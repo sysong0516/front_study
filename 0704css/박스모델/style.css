@@ -1,0 +1,13 @@
+*{
+  border:1px solid red;
+  padding: 0px;
+  margin:50px;
+}
+
+h1{
+  border-top-color: blue;
+  border-top-style: solid;
+  border-top-left-radius: 20px;
+  border-top-width: 20px;
+  margin:10px 20px 30px;
+}

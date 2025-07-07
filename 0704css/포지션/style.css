@@ -1,0 +1,28 @@
+.float{
+  float: left;
+}
+
+.clear{
+  clear: both;
+}
+
+.box{
+  width: 100px;
+  height: 100px;
+  background-color: skyblue;
+}
+
+.box1{
+  background-color: pink;
+}
+
+.box2{
+  background-color: yellowgreen;
+}
+
+.container{
+  border-color: red;
+  border-style: solid;
+  border-width: 1px;
+  overflow:auto
+}

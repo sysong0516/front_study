@@ -1,0 +1,15 @@
+ul > li{
+  /* list-style-image: url("../../image/pepe.jpg"); */
+  background-color: skyblue;
+  background-image: url("../../image/pepe.jpg");
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+  background-position: left center;
+  margin:0;
+  padding:20px 0 20px 10px;
+}
+
+ol{
+  list-style-type: upper-alpha;
+  background-color: lightgreen;
+}

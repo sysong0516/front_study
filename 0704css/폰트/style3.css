@@ -1,0 +1,24 @@
+p{
+  font-size:16px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+body{
+  font-family: "Courier New", Courier, monospace;
+  font-style: "italic";
+  font-weight: 32px;
+  
+  /* 소문자를 대문자로 */
+  font-variant: small-caps;
+}
+
+p{
+  text-transform: uppercase;
+  font:italic bold 25px '굴림', Gulim;
+  /* font:bold italic small-caps 12px/1.2 '돋움', '굴림', Gulim; */
+  text-shadow:2px 2px 4px #000000, 2px 2px 4px green;
+
+  /* 자간 */
+  letter-spacing: 5px
+}

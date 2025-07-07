@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1><a href="./index.html">Home</h1>
+  <hr>
+  <ul id="menu">
+    <li><a href="./table.html">성적표</a></li>
+    <li id="color-link"><a href="./color.html">색바꾸기</a></li>
+    <li><a href="register.html">회원가입</a></li>
+  </ul>
+  <hr>
+  <select name="color" id="color">
+    <option value="red">빨강</option>
+    <option value="green">초록</option>
+    <option value="blue">파랑</option>
+    <option value="yellow">노랑</option>
+    <option value="black">검정</option>
+  </select>
+  <video src="./images/nike.mp4 " controls style="display:block;margin:20px auto;max-width:300px;"></video>
+  <script>
+    document.getElementById('color').addEventListener('change', function() {
+      document.body.style.backgroundColor = this.value;
+    });
+  </script>
+</body>
+</html>

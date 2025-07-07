@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&display=swap');
+*{
+    font-family: 'Bitcount Grid Double', sans-serif;
+    font-size: 32px;
+}
+
+#kor{
+  @font-face {
+    font-family: 'PartialSansKR-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/PartialSansKR-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+}

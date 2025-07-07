@@ -1,0 +1,16 @@
+body{
+  background: skyblue url("../../image/kakaofriends.gif") no-repeat center center fixed;
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+
+h1{
+  background-color: pink;
+}
+
+p{
+  background-color: yellow;
+}
+
+.bg{
+  background-color: rgba(100,255,50,0.9);
+}
