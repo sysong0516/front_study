@@ -1,0 +1,7 @@
+h1~p{
+  background-color: pink;
+}/*기준요소뒤부터 형제들을 선택*/
+
+h1+p{
+  color:red;
+}/*기준요소로부터 가장가까운 형제 선택*/

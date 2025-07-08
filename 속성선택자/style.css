@@ -1,0 +1,18 @@
+[href]{
+  color:red;
+}/*해당 속성을 가진 태그에 일괄적용*/
+
+h1[class]{
+  background-color: skyblue;
+}/*태그랑 조합가능*/
+
+[class="green"]{
+  background-color:green;
+}/*속성값에도 가능*/
+
+[title~="태그"]{
+  color:pink;
+}
+
+/* ^=해당 단어로 시작하는 $=해당단어로 끝나는 ~=해당단어가 띄어쓰기로 포함된
+  *=해당단어가 포함된*/

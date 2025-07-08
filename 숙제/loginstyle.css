@@ -8,3 +8,42 @@ ul>li{
     list-style: none;
     display:inline-block;
 }
+
+
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    display: inline-block;
+}
+
+.container div:nth-child(1){
+    background:red;
+}
+.container div:nth-child(2){
+    background:blue;
+}
+.container div:nth-child(3){
+    background:green;
+}
+.container div:nth-child(4){
+    background:yellow;
+}
+.container div:nth-child(5){
+    background:purple
+}
+.container div:nth-child(6){
+    background:black;
+}
+.container div:nth-child(7){
+    background:orange
+}
+.container div:nth-child(8){
+    background:skyblue;
+}
+.container div:nth-child(9){
+    background:yellowgreen;
+}
+.container div:nth-child(10){
+    background:brown;
+}

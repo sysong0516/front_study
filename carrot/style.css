@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.nav{
+  margin:auto;
+  width:100%;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  position: sticky;
+  top:0;
+}
+
+.nav > ul {
+  margin-left:300px;
+  display : flex;
+  align-items: center;
+}
+
+.nav > ul> li> img{
+  width:120px;
+  height:30px;
+}
+
+.nav > ul >li{
+  margin:10px;
+  list-style: none;
+  display:inline-block;
+}
+
+.trade{
+  color:#ff8a3d;
+}
+
+.search{
+  margin-right:300px;
+  float: right;
+}
+
+/*second*/
+
+.second{
+  display:flex;
+  background-color: #FBF7F2;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.second > .text{
+  width: 400px;
+  border : solid red 1px;
+  margin-left:250px;
+}
+
+.second > .text > h1{
+  padding:20px;
+  font-size: 40px;
+}
+
+.second > .first_picture{
+  width:800px;
+  height:685px;
+  margin-right:200px;
+}
+
+/*third*/
+
+.third{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  inset:10px;
+  border-bottom:gray 1px solid;
+}
+
+.third > .second_picture{
+  width:530px;
+  height:685px;
+  margin-left:250px;
+}
+
+.third > .text2{
+  width:400px;
+  height:300px;
+  margin-right:250px;
+  border : solid 1px red;
+}
+
+.third > .text2 > h1{
+  font-size:40px;
+  margin-bottom: 30px;
+}
+
+.third > .text2 > p{
+  margin-bottom: 40px;
+}
+
+.third > .text2 > a{
+  margin-right:30px;
+  padding : 20px;
+  font-size: 15px;
+  background-color: #F1F3F5;
+  border-radius: 15%;
+}
+
+
+/*마지막*/
+
+.tail{
+  padding:20px;
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+  border-bottom:gray 1px;
+}
+
+.tail > table{
+  margin-left:200px;
+  padding : 30px;
+}
+
+.tail > table > tr,td{
+  padding: 10px;
+}
+
+.tail > .download{
+  border : solid 1px red;
+  margin-right:200px;
+  align-items: center;
+}
+
+.tail > .download > p{
+  margin-bottom:20px;
+}
+
+.tail > .download > a{
+  margin-right:30px;
+  padding:10px;
+  background-color: #F1F3F5;
+  border-radius: 15%;
+  font-size:20px;
+}
+
+.tail > .download > a > img{
+  width:30px;
+  height:30px;
+}

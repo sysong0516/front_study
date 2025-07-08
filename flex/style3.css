@@ -1,0 +1,27 @@
+.parent{
+  margin:0;
+  background-color: yellow;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height:1000px;
+}
+
+.parent2{
+  width:70%;
+  height:70%;
+  background-color: white;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.child{
+  width:70%;
+  height:70%;
+  background-color: blueviolet;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

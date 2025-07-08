@@ -1,0 +1,54 @@
+.parent{
+  display:flex;
+  justify-content: space-evenly;
+}
+
+.parent > div{
+  height: 100px;
+  width: 100px;
+  background: skyblue;
+  margin: 5px;
+}
+
+.child1{
+  /*증가비율*/
+  flex-grow: 1;
+  /*감소비율*/
+  flex-shrink: 3;
+}
+
+.child2{
+  flex-grow: 2;
+}
+
+.child3{
+  flex-grow: 1;
+}
+
+.parent2{
+  border: 1px solid red;
+  height: 500px;
+  display: flex;
+}
+
+.parent2 > div{
+  height : 100px;
+  width: 100px;
+  background: pink;
+  margin : 5px;
+}
+
+.child4{
+  flex: 1;
+  order: 1;
+}
+
+.chlid5{
+  flex: 1;
+  order : 2;
+}
+
+.child6{
+  flex: 1;
+  order:0;
+}
