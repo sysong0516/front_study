@@ -54,7 +54,6 @@
 
 .second > .text{
   width: 400px;
-  border : solid red 1px;
   margin-left:250px;
 }
 
@@ -89,7 +88,6 @@
   width:400px;
   height:300px;
   margin-right:250px;
-  border : solid 1px red;
 }
 
 .third > .text2 > h1{
@@ -130,7 +128,6 @@
 }
 
 .tail > .download{
-  border : solid 1px red;
   margin-right:200px;
   align-items: center;
 }

@@ -1,0 +1,43 @@
+.container{
+  display:grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 10px;
+  grid-template-columns: repeat(3,300px);
+}
+
+.container>div{
+  padding:15px;
+  border:solid black 1px;
+  box-shadow: 3px 3px gray;
+  text-align: center;
+}
+
+.container>div>p{
+  text-align: left;
+}
+
+@media screen and (max-width:900px){
+  .container{
+    grid-template-rows:1fr;
+    grid-template-columns:1fr;
+  }
+}
+
+.image1{
+  background-image: url(../image/cup-1.jpg);
+}
+.image2{
+  background-image: url(../image/cup-2.jpg);
+}
+.image3{
+  background-image: url(../image/cup-3.jpg);
+}
+.image4{
+  background-image: url(../image/cup-4.jpg);
+}
+.image5{
+  background-image: url(../image/cup-5.jpg);
+}
+.image6{
+  background-image: url(../image/cup-6.jpg);
+}

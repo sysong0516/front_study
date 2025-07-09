@@ -1,0 +1,72 @@
+/*
+  @media 미디어쿼리를 쓸거임
+  screen 미디어타입-화면
+  and 조건들을 연결해주는 논리연산자
+*/
+
+@media screen and (max-width:500px){
+  div{
+    background: skyblue;
+  }
+}
+
+/* .container{
+  display:flex;
+  justify-content: space-around;
+  background:pink;
+  height:2000px;
+  flex-wrap: wrap;
+}
+
+.container>div{
+  background:skyblue;
+  width:20%;
+  height:200px;
+  margin:5px;
+} */
+
+.header1{
+  height:100px;
+  background:skyblue;
+}
+
+.header2{
+  height:100px;
+  background:yellow;
+}
+
+@media(max-width: 768px){
+  .header1{
+    display:none;
+  }
+  .header2{
+    display:block;
+  }
+}
+@media(min-width: 769px){
+  .header1{
+    display:block;
+  }
+  .header2{
+    display:none;
+  }
+}
+
+@media(max-width: 425px){
+  .container{
+    flex-direction: column;
+  }
+  .container>div{
+    width:90%;
+  }
+}
+
+@media(max-width:426px) and (max-width:768px){
+  .container{
+    align-content: flex-start;
+  }
+  .container>div{
+    width:45%;
+    height:150px;
+  }
+}
