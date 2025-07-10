@@ -1,0 +1,10 @@
+.alert-box{
+  display:none;
+  background: pink;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.alert-box>.textplace{
+  background: white;
+}
