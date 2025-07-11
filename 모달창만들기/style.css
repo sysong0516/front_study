@@ -1,0 +1,19 @@
+.black-bg{
+  width:100%;
+  height:100%;
+  background: rgba(0,0,0,0.5);
+  padding: 30px;
+  display: none;
+  position: fixed;
+}
+
+.white-bg{
+  width:80%;
+  background: white;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.show{
+  display:block;
+}
